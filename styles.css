@@ -1,3 +1,8 @@
+*
+{
+    color:white;
+}
+
 #header
 {
     background-color:#333333
@@ -5,5 +10,28 @@
 
 #headerRule
 {
-    background-color="color: #5C5C5C"
+    background-color: #5C5C5C;
+    height: 1px;
+    border: 0px;
+}
+
+ul
+{
+    display:block;
+}
+
+#headerNavRight
+{
+    float:right;
+    list-style:none
+}
+
+li
+{
+    display:list-item;
+    float:right;
+    padding:3px;
+    border:solid;
+    border-color:white;
+    border-width: 1px;
 }
