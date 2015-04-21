@@ -1,15 +1,21 @@
-*
-{
-    color:white;
-}
-
 body
 {
     margin:0px;
+    color:white;
+    font-family:sans-serif;
 }
 
-#header
+.headerContent
 {
+    background-color:#333333;
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#headerBackground
+{
+    min-width:1000px;
     background-color:#333333
 }
 
@@ -35,6 +41,12 @@ ul
     list-style:none
 }
 
+#MenuList
+{
+  color: #00AEEF;
+  float:right;
+}
+
 li
 {
     display:list-item;
@@ -47,3 +59,4 @@ li
     border-bottom-width:0px;
 
 }
+
