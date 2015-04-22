@@ -2,7 +2,7 @@ body
 {
     margin:0px;
     color:white;
-    font-family:sans-serif;
+    font-family:'Trebuchet MS', Trebuchet, Verdana, sans-serif;
 }
 
 .headerContent
@@ -11,6 +11,7 @@ body
     width: 980px;
     margin-right: auto;
     margin-left: auto;
+    overflow:auto;
 }
 
 #headerBackground
@@ -41,17 +42,23 @@ ul
     list-style:none
 }
 
-#MenuList
+span#MenuList
 {
   color: #00AEEF;
   float:right;
+  font-weight:bold;
+}
+
+span#MenuList span
+{
+    margin-left:50px;
 }
 
 li
 {
     display:list-item;
     float:right;
-    padding:3px;
+    padding:7px;
     border:solid;
     border-color:#5C5C5C;
     border-width: 1px;
