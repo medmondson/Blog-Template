@@ -20,6 +20,21 @@ body
     background-color:#333333
 }
 
+#logo
+{
+    font-size:x-large;
+}
+
+#content
+{
+    background-color: #EFEEEE;
+    color: black;
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 2000px;
+}
+
 hr#headerRule
 {
     background-color: #5C5C5C;
