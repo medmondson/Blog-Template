@@ -1,0 +1,6 @@
+C:\Users\matt\documents\visual studio 2013\Projects\gpPaymentServicesMvc\BlogTemplates\BlogTemplates\bin\BlogTemplates.dll.config
+C:\Users\matt\documents\visual studio 2013\Projects\gpPaymentServicesMvc\BlogTemplates\BlogTemplates\bin\BlogTemplates.dll
+C:\Users\matt\documents\visual studio 2013\Projects\gpPaymentServicesMvc\BlogTemplates\BlogTemplates\bin\BlogTemplates.pdb
+C:\Users\matt\documents\visual studio 2013\Projects\gpPaymentServicesMvc\BlogTemplates\BlogTemplates\obj\Debug\BlogTemplates.csprojResolveAssemblyReference.cache
+C:\Users\matt\documents\visual studio 2013\Projects\gpPaymentServicesMvc\BlogTemplates\BlogTemplates\obj\Debug\BlogTemplates.dll
+C:\Users\matt\documents\visual studio 2013\Projects\gpPaymentServicesMvc\BlogTemplates\BlogTemplates\obj\Debug\BlogTemplates.pdb
