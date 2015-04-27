@@ -33,6 +33,11 @@ body
     margin-left: auto;
     margin-right: auto;
     min-height: 2000px;
+    padding-top:40px;
+}
+
+main#title div {
+  margin-bottom: 40px;
 }
 
 hr#headerRule
@@ -41,6 +46,16 @@ hr#headerRule
     height: 1px;
     border: 0px;
     margin:0px;
+}
+
+hr#bottomRule
+{
+    background-color: #DCDBDB;
+    height: 1px;
+    border: 0px;
+    margin: 0px;
+    width: 550px;
+    margin: 0 auto;
 }
 
 ul

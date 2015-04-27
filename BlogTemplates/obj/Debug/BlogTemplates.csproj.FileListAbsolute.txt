@@ -4,3 +4,9 @@ C:\Users\matt\documents\visual studio 2013\Projects\gpPaymentServicesMvc\BlogTem
 C:\Users\matt\documents\visual studio 2013\Projects\gpPaymentServicesMvc\BlogTemplates\BlogTemplates\obj\Debug\BlogTemplates.csprojResolveAssemblyReference.cache
 C:\Users\matt\documents\visual studio 2013\Projects\gpPaymentServicesMvc\BlogTemplates\BlogTemplates\obj\Debug\BlogTemplates.dll
 C:\Users\matt\documents\visual studio 2013\Projects\gpPaymentServicesMvc\BlogTemplates\BlogTemplates\obj\Debug\BlogTemplates.pdb
+C:\Users\matt\Source\Repos\Blog-Template\BlogTemplates\bin\BlogTemplates.dll.config
+C:\Users\matt\Source\Repos\Blog-Template\BlogTemplates\bin\BlogTemplates.dll
+C:\Users\matt\Source\Repos\Blog-Template\BlogTemplates\bin\BlogTemplates.pdb
+C:\Users\matt\Source\Repos\Blog-Template\BlogTemplates\obj\Debug\BlogTemplates.csprojResolveAssemblyReference.cache
+C:\Users\matt\Source\Repos\Blog-Template\BlogTemplates\obj\Debug\BlogTemplates.dll
+C:\Users\matt\Source\Repos\Blog-Template\BlogTemplates\obj\Debug\BlogTemplates.pdb
