@@ -9,14 +9,24 @@
     <body>
         <script src="Scripts/jquery-2.1.3.js"></script>
         <script>
-            // increase factor
             var factor = 2;
 
-            $('#twitter').click(function () {
-                $(this).animate({
-                    top: '-=' + $(this).height() / factor,
-                    left: '-=' + $(this).width() / factor,
-                    width: $(this).width() * factor
+            $(document).ready( function() {
+
+                $('#twitter').hover(function () {
+                   
+                    $(this).animate({
+                        height: "15px",
+                        width: "18px"
+                    },85);
+
+                }, function () {
+
+                    $(this).animate({
+                        height: "13px",
+                        width: "16px"
+                    },85);
+
                 });
             });
         </script>
