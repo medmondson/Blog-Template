@@ -34,6 +34,7 @@ body
     margin-right: auto;
     min-height: 2000px;
     padding-top:40px;
+    padding-left:60px;
 }
 
 main#title div {
@@ -97,3 +98,11 @@ li
 
 }
 
+#featureSnippet
+{
+  background-color: #00AEEF;
+  color: white;
+  padding: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
