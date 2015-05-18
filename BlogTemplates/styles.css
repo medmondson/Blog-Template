@@ -106,3 +106,22 @@ li
   padding-right: 15px;
   padding-left: 15px;
 }
+
+#featureImageLeft
+{
+     float:left;
+}
+
+#featureImageLeft img
+{
+    width: 378px;
+    height: 261px;
+    padding-top: 40px;
+}
+
+#featureRight
+{
+    float: left;
+    padding-top: 47px;
+    padding-left: 50px;
+}
