@@ -124,4 +124,17 @@ li
     float: left;
     padding-top: 47px;
     padding-left: 50px;
+    position:relative;
+}
+
+#readFeatureArticle
+{
+  background-color: white;
+  color: #00AEEF;
+  padding: 12px;
+  padding-right: 15px;
+  padding-left: 15px;
+  BORDER-COLOR: #DCDBDB;
+  BORDER-STYLE: solid;
+  BORDER-WIDTH: 1px;
 }
