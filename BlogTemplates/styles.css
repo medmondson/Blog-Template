@@ -5,6 +5,11 @@ body
     font-family:'Trebuchet MS', Trebuchet, Verdana, sans-serif;
 }
 
+header
+{
+    font-size:larger;
+}
+
 .headerContent
 {
     background-color:#333333;
@@ -137,4 +142,12 @@ li
   BORDER-COLOR: #DCDBDB;
   BORDER-STYLE: solid;
   BORDER-WIDTH: 1px;
+}
+
+div#bottomArticleSummary img
+{
+    width: 302px;
+    height: 209px;
+    padding-top: 47px;
+    padding-right: 20px;
 }
