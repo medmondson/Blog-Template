@@ -5,6 +5,12 @@ body
     font-family:'Trebuchet MS', Trebuchet, Verdana, sans-serif;
 }
 
+main
+{
+   margin: auto;
+  display: table;
+}
+
 header
 {
     font-size:larger;
@@ -40,6 +46,10 @@ header
     min-height: 2000px;
     padding-top:40px;
     padding-left:60px;
+}
+
+div.headerText {
+  text-align: center;
 }
 
 main#title div {
@@ -110,6 +120,7 @@ li
   padding: 7px;
   padding-right: 15px;
   padding-left: 15px;
+  width:100px;
 }
 
 #featureImageLeft
@@ -146,8 +157,8 @@ li
 
 div#bottomArticleSummary img
 {
-    width: 302px;
-    height: 209px;
+    width: 330px;
+    height: 170px;
     padding-top: 47px;
     padding-right: 20px;
 }

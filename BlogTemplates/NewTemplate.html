@@ -60,14 +60,14 @@
             </div>
         </header>
         <main id="content">
-            <main id="title" style="text-align:center;">
-                <div style="font-size:x-large">
+            <main id="title">
+                <div style="font-size:x-large" class="headerText">
                     Matt's <b>Software Blog</b>
                 </div>
-                <div style="font-style:italic;font-size:large">
+                <div style="font-style:italic;font-size:large" class="headerText">
                     ...imaginatively titled posts with a .NET twist
                 </div>
-                <div>
+                <div class="headerText">
                     This is my personal blog.  <br />The views expressed on these pages are mine alone and not those of my employer.
                 </div>
 
@@ -101,15 +101,35 @@
                 <hr id="bottomRule" />
 
                 <div id="bottomArticleSummary">
-                    <span>
+                    <div id="otherArticle1" style="float:left">
                         <img src="Images/LinqFunc.png" />
-                    </span>
-                    <span>
+                        <span id="featureSnippet" style="display:inherit">
+                            Sept 15, 2014
+                        </span>
+                        <div>
+                            Lots of fish
+                        </div>
+                    </div>
+                    <div id="otherArticle2" style="float:left">
                         <img src="Images/UnassumingUnicode.png" />
-                    </span>
-                    <span>
-                    <img src="Images/keepingYourSourceSafe.png" />
-                    </span>
+                        <span id="featureSnippet" style="display:inherit">
+                            Sept 15, 2014
+                        </span>
+                        <div>
+                            Some more fish
+                        </div>
+                    </div>
+                    <div id="otherArticle3" style="float:left">
+                        <img src="Images/keepingYourSourceSafe.png" />
+                        <span id="featureSnippet" style="display:inherit">
+                            Sept 15, 2014
+                        </span>
+                        <div>
+                            A bit less
+                        </div>
+                    </div>
+                    <!--clearFix-->
+                    <div style="clear:both;" />
                 </div>
             </main>
         </main>
