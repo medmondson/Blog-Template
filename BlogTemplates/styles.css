@@ -8,7 +8,7 @@ body
 main
 {
    margin: auto;
-  display: table;
+   display: table;
 }
 
 header
@@ -52,7 +52,7 @@ div.headerText {
   text-align: center;
 }
 
-main#title div {
+main.title > div {
   margin-bottom: 40px;
 }
 
@@ -120,7 +120,15 @@ li
   padding: 7px;
   padding-right: 15px;
   padding-left: 15px;
+  margin-top:20px;
   width:100px;
+}
+
+div.otherArticle > div.title, div.summary
+{
+    max-width:350px;
+    margin-top:20px;
+    margin-bottom: 20px;
 }
 
 #featureImageLeft
