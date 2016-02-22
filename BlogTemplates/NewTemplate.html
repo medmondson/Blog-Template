@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!doctype html>
 
-<!--Look at adding bootstrap to this file for responsive layout-->
+<!--Look at adding bootstrap to this file for responsive layout, figure out if columns across whole page?-->
 
 <html lang="en">
 <head>
     <title>Matt's Software Blog</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="styles.css" />
 </head>
     <body>
@@ -75,31 +76,36 @@
 
                 <hr id="bottomRule" />
 
-                <div id="featureImageLeft">
-                    <img src="Images/decompiled.png"/>
-                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div id="featureImageLeft" class="col-sm-5 col-md-3">
+                            <img src="Images/decompiled.png" />
+                        </div>
 
-                <div id="featureRight" style="text-align:left;">
-                    <span id="featureSnippet">
-                        Sept 15, 2014
-                    </span>
+                        <div id="featureRight" class="col-sm-7 col-md-9" style="text-align:left;">
+                            <span id="featureSnippet">
+                                Sept 15, 2014
+                            </span>
 
-                    <div id="textSnippet" style="text-align: left; margin-top: 10px; max-width:600px;height:185px;">
-                        <header>PRETENTIOUS PARAMETERS AND THE C# COMPILER</header>
-                        <br />
-                        I was reading through Jon Skeet's brilliant C# In Depth when I came across a thought provoking shred of info tucked away in Part 4.
+                            <div id="textSnippet" style="text-align: left; margin-top: 10px; max-width:600px;height:185px;">
+                                <header>PRETENTIOUS PARAMETERS AND THE C# COMPILER</header>
+                                <br />
+                                I was reading through Jon Skeet's brilliant C# In Depth when I came across a thought provoking shred of info tucked away in Part 4.
 
-                        Jon was describing optional parameters, how they've been supported in the CLR from .NET 1.0 and the motivation behind their inclusion in C# 4. Along with this he provided an example which exhibits behaviour you probably won't expect.
+                                Jon was describing optional parameters, how they've been supported in the CLR from .NET 1.0 and the motivation behind their inclusion in C# 4. Along with this he provided an example which exhibits behaviour you probably won't expect.
+                            </div>
+
+                            <span id="readFeatureArticle" style="position: absolute; bottom: 0;">
+                                READ ARTICLE
+                            </span>
+                        </div>
+
+                        <!--clearFix-->
+                        <div style="clear:both;" />
+
                     </div>
-
-                    <span id="readFeatureArticle" style="position: absolute; bottom: 0;" >
-                        READ ARTICLE
-                    </span>
                 </div>
-
-                <!--clearFix-->
-                <div style="clear:both;" />
-
+               
                 <hr id="bottomRule" />
 
                 <div id="bottomArticleSummary">
